@@ -1,0 +1,9 @@
+###
+### THIS IS A HIGH-GRADE PRODUCTION
+### -Dashie 2025 Monday February 17th 1:59AM
+###
+
+name: MiniDashy
+version: '4.20'
+main: nl.kvinnekraft.MiniDashy
+api-version: '1.18'
