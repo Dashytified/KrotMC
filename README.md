@@ -1,3 +1,3 @@
-<h1> Krot Minecraft Server Sources </h1>
+<h1> PLAY.KROTJE.NL Server Plugins </h1>
 
-<h3> All the source code in this repository is meant for the Minecraft server. All projects are compiled with either Paper or Spigot API 1.18.2; though the server allows you to join with any version ranging from 1.12-1.20 </h3>
+<h3> I have decided to open source all plugins created for the server I am planning on reviving. I have removed the entire codebase several times now, this time is it. Old code may be published at some point too, though, for now, this will do. </br> PS: code is on the way.</h3>

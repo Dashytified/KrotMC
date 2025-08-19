@@ -1,1 +1,0 @@
-<h1> No extensive description here yet. This is the source code for the primary plugin the play.krotje.com Minecraft server runs on. MiniDashy is a plugin containing various games and other features. </h1>

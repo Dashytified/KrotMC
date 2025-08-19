@@ -1,9 +1,10 @@
 plugins {
     id 'java'
+    id("xyz.jpenilla.run-paper") version "2.3.1"
 }
 
-group = 'nl.kvinnekraft'
-version = '4.20'
+group = 'dw.kvinnekraft'
+version = '4.2'
 
 repositories {
     mavenCentral()
@@ -11,14 +12,19 @@ repositories {
         name = "papermc-repo"
         url = "https://repo.papermc.io/repository/maven-public/"
     }
-    maven {
-        name = "sonatype"
-        url = "https://oss.sonatype.org/content/groups/public/"
-    }
 }
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:1.18.2-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:1.19.4-R0.1-SNAPSHOT")
+}
+
+tasks {
+    runServer {
+        // Configure the Minecraft version for our task.
+        // This is the only required configuration besides applying the plugin.
+        // Your plugin's jar (or shadowJar if present) will be used automatically.
+        minecraftVersion("1.19")
+    }
 }
 
 def targetJavaVersion = 17
